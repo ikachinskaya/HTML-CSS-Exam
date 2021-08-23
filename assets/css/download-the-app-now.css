@@ -1,0 +1,20 @@
+.download-the-app-now {
+  background: var(--bg-dark-color);
+  padding: 120px 20px;
+  text-align: center;
+}
+.download-the-app-now-heading {
+  color: var(--light-color);
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .download-the-app-now {
+    background-image: url("./../img/footer-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .download-the-app-now-text {
+    color: var(--light-color);
+  }
+}
