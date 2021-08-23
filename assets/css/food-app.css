@@ -1,0 +1,44 @@
+.food-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 500px;
+}
+.food-app-container {
+  margin: 40px auto;
+}
+.main-heading {
+  margin: 2px 0;
+  color: inherit;
+}
+.btn-orange {
+  margin-bottom: 17px;
+}
+@media screen and (min-width: 576px) {
+  .food-app {
+    background-image: url("./../img/header-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+  }
+  .main-heading {
+    color: var(--light-color);
+    margin: 25px 0;
+  }
+  .food-app-text {
+    color: var(--light-color);
+  }
+  .buttons-container {
+    flex-direction: row;
+  }
+  .btn-orange {
+    margin: 0 30px 0 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main-heading {
+    margin: 45px 0;
+  }
+}
