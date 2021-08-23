@@ -1,0 +1,23 @@
+.main-heading-hidden {
+  position: absolute;
+  left: 5000%;
+}
+.food-for-every-one-img-wrapper {
+  max-width: 550px;
+  margin: 0px auto;
+}
+.food-for-every-one-img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+@media screen and (min-width: 768px) {
+  .food-for-every-one-heading {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .food-for-every-one-img-wrapper {
+    margin: -180px auto;
+  }
+}
