@@ -1,0 +1,79 @@
+.how-the-app-works {
+  margin-bottom: 50px;
+}
+.hr,
+.hr-hidden {
+  max-width: 885px;
+}
+.hr {
+  display: block;
+  margin: 50px auto;
+}
+.hr-hidden {
+  display: none;
+  margin: 300px auto 0;
+}
+.how-the-app-works-heading {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 100px;
+}
+.section-container {
+  text-align: center;
+  padding: 20px;
+}
+.section-heading {
+  margin: 30px 0;
+}
+.text-content {
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 576px) {
+  .section-img-wrapper {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .how-the-app-works {
+    margin-bottom: 80px;
+  }
+  .section-container {
+    display: flex;
+    margin-top: 100px;
+    text-align: left;
+  }
+  .section-container-reverse {
+    flex-direction: row-reverse;
+  }
+  .section-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin: 0px auto;
+    padding: 10px;
+  }
+  .section-img-wrapper {
+    width: 40%;
+  }
+  .how-the-app-works-heading {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .hr-hidden {
+    display: block;
+  }
+  .how-the-app-works-heading {
+    margin-top: 50px;
+  }
+  .hr {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .how-the-app-works {
+    margin-bottom: 200px;
+  }
+}
