@@ -1,0 +1,81 @@
+:root {
+  --bg-dark-color: #252b42;
+  --light-color: #ffffff;
+  --grey-color: #737373;
+  --orange-color: #fa4a0c;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 10px;
+}
+.main-heading {
+  color: var(--light-color);
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.sub-heading {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.2px;
+}
+.text-content {
+  letter-spacing: 0.2px;
+  line-height: 1.1rem;
+  color: var(--grey-color);
+}
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.btn {
+  display: block;
+  width: 236px;
+  padding: 16px;
+  border-radius: 30px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.btn-orange {
+  background-color: var(--orange-color);
+  color: var(--light-color);
+  border: none;
+}
+.btn-opacity {
+  background-color: var(--light-color);
+  color: var(--orange-color);
+  border: 1px solid var(--orange-color);
+}
+.link {
+  text-decoration: none;
+  color: var(--orange-color);
+  font-weight: 700;
+}
+@media screen and (min-width: 576px) {
+  .btn-opacity {
+    background-color: transparent;
+    color: var(--light-color);
+    border: 1px solid var(--light-color);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main-heading {
+    font-size: 2.4rem;
+  }
+}
